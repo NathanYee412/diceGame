@@ -1,4 +1,5 @@
 
+
 // Get a random number between 0 and 6
 function getRandomNum() {
     

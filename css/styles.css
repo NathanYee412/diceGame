@@ -1,6 +1,8 @@
 .title {
     text-align: center;
     padding-bottom: 60px;
+    color: rgb(21, 255, 0);
+    font-size: 6rem;
 }
 
 .left {
@@ -17,4 +19,5 @@
 body {
     padding: 7% 15%;
     background-color: rgb(112, 112, 112);
+    font-family: 'Bebas Neue', cursive;
 }
