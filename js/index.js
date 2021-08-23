@@ -23,8 +23,10 @@ function getRandomDice(diceNum) {
 
     if(leftNum > rightNum) {
         document.getElementById("title-text").innerHTML = "Player 1 Wins!";
-    } else {
+    } else if(rightNum > leftNum) {
         document.getElementById("title-text").innerHTML = "Player 2 Wins!";
+    } else {
+        document.getElementById("title-text").innerHTML = "It is a Draw!";
     }
 
 }
